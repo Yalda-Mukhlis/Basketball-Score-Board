@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL" rel="stylesheet">
+    </head>
+    <body>
+        <span id="plus1"></span>
+        <span id="plus2"></span>
+        <span id="plus3"></span>
+        
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        
+        <div id="screen">
+            <div>
+                <p id="home-score">0</p>
+            </div>
+            <div>
+                <p id="guest-score">0</p>
+            </div>
+        </div>
+        
+        <div id="add-btns">
+            <div>
+                <button class="btn" onclick="addHome(1)">+1</button>
+                <button class="btn" onclick="addHome(2)">+2</button>
+                <button class="btn" onclick="addHome(3)">+3</button>
+            </div>
+            <div>
+                <button class="btn" onclick="addGuest(1)">+1</button>
+                <button class="btn" onclick="addGuest(2)">+2</button>
+                <button class="btn" onclick="addGuest(3)">+3</button>
+            </div>
+        </div>
+        
+        <div>
+            <button id="reset" onclick="resetScores()">RESET</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

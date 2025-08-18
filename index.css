@@ -1,0 +1,84 @@
+body {
+    margin: auto;
+    background-color: #5A0B1E;
+    color: white;
+    width: 350px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    text-shadow: 0px 0px 30px #B08D57;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#screen {
+    display: flex;
+    justify-content: space-around;
+    font-family: Cursed Timer ULiL;
+    color: #B08D57;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    background-color: black;
+    padding: 10px 20px 5px 20px;
+    border-radius: 10px;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#guest-score {
+    margin-left: 10px;
+}
+
+#home-score {
+    margin-right: 10px;
+}
+
+#add-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #5A0B1E;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 8px;
+    font-family: Cursed Timer ULiL;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #B08D57;
+    background-color: white;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5A0B1E;
+    background-color: #B08D57;
+    border: 1px solid #B08D57;
+    border-radius: 5px;
+    padding: 6px 120px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reset:hover{
+    background-color: black;
+    color: #B08D57;
+}
